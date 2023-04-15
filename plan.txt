@@ -1,0 +1,27 @@
+-----------------------------------------------------------------------------
+home page
+	-link to record a workout (link to workout selection page)
+
+	-link to view progress
+
+-------------------------------------------------------------------------------
+workout selection (both options link to workout recording page) | needs access to list of workouts, passes selected workout
+	-option to create a new workout
+		-form to input name of exercises plus button to submit
+		-display excercises in a list with option to delete
+		-button to save workout and continue
+
+	-option to use a prexisting workout
+		-bring up list of pre-existing workouts with buttons to select one
+		-continue after selecting
+
+------------------------------------------------------------------------------
+workout recording page | needs selected workout
+	-display list of excerscises with forms to input numbers or sets ands reps
+		-should display a challenge above each one
+
+	-button to save workout (submits all the forms above)
+
+-------------------------------------------------------------------------
+progress page | needs record of all past workouts
+	-TBD
