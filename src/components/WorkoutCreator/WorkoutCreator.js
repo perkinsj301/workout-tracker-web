@@ -116,9 +116,9 @@ export default function WorkoutCreator(props){
                             <option value="light">8-12</option>
                         </select>
                     </div>
-                <button type="submit" class="btn btn-primary">complete</button>
+                <button type="submit" class="btn btn-primary">add exersise</button>
                 </form>
-                <button type="submit" class="btn btn-primary">complete</button>
+                <button type="submit" class="btn btn-primary">add workout</button>
                 </form>
             </div>
         </React.Fragment>
