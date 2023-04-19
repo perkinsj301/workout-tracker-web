@@ -121,7 +121,7 @@ function App() {
               <Route path="/ProgressPage" element={<ProgressPage />}></Route>
               <Route path="/WorkoutRecord" element={<WorkoutRecord workout={currentWorkout} workouts={workouts} workoutsSetter={setWorkouts} navToDashboard={navToDashboard}/>}></Route>
               <Route path="/WorkoutSelection" element={<WorkoutSelection workouts={workouts} set={setCurrentWorkout} navToCreatePage={navToCreatePage} navToRecPage={navToRecPage}/>}></Route>
-              <Route path="/WorkoutCreator" element={<WorkoutCreator />}></Route>
+              <Route path="/WorkoutCreator" element={<WorkoutCreator workouts={workouts} workoutsSetter={setWorkouts} set={setCurrentWorkout}/>}></Route>
 
             </Routes>
             </div>
